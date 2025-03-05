@@ -3,7 +3,7 @@ sudo apt update
 sudo apt dist-upgrade
 sudo apt install -y curl wget tar unzip openssh-server git
 
-# Install Chezmoish 
+# Install Chezmoi 
 sh -c "$(curl -fsLS get.chezmoi.io)"
 
 # Install Neovim
